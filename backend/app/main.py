@@ -17,8 +17,8 @@ from fastapi.middleware.cors import CORSMiddleware
 # ✦ Auth     ⟶ Autenticação Registro/Login
 # ✦ Etapas   ⟶ Etapas de CEG (Compras em Grupo)
 from app.supabase_client import supabase
-from backend.app import auth
-from backend.app import etapas 
+from app import auth
+from app import etapas
 
 # -------------------------------------------------------------------
 
