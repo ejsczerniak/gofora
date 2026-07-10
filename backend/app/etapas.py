@@ -13,7 +13,7 @@ from fastapi import APIRouter, HTTPException
 # ➤ Importações de Instâncias de Cliente
 # ✦ Supabase ⟶ Operações como Selecionar, Inserir, Atualizar, Deleta
 # ✦ Datetime ⟶ Módulo Padrão Python para Manipulação de Datas e Horários
-from backend.app.supabase_client import supabase
+from app.supabase_client import supabase
 from datetime import date
 
 # -------------------------------------------------------------------
